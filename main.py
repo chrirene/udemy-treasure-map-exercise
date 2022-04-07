@@ -14,7 +14,7 @@ vertical = int(position[1])
 selected_row = map[vertical - 1]
 selected_row[horizontal - 1] = "X"
 
-
+print(f"{row1}\n{row2}\n{row3}")
 
 # position_as_int = int(position)
 
@@ -38,8 +38,4 @@ selected_row[horizontal - 1] = "X"
 #   row3[1] = "X" 
 # if position_as_int == 33:
 #   row3[2] = "X" 
-
-#Write your code above this row 👆
-
-# 🚨 Don't change the code below 👇
-print(f"{row1}\n{row2}\n{row3}")
+# print(f"{row1}\n{row2}\n{row3}")
